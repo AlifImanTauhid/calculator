@@ -57,6 +57,7 @@ function operatorHandler(op) {
     currentValue = "";
 }
 
+
 function calculate() {
     previousValue = Number(previousValue)
     currentValue = Number(currentValue)
@@ -70,6 +71,7 @@ function calculate() {
     } else {
         previousValue /= currentValue;
     }
+
     previousValue = roundNum(previousValue);
     previousValue = previousValue.toString();
     currentValue = currentValue.toString();
